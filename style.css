@@ -9,7 +9,7 @@
 
 
 .container {
-    background: rgba(204, 114, 200, 0.5);
+    background: rgba(204, 114, 200, 0.705);
     height: 130vh;
 }
 
@@ -132,9 +132,15 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    margin: 100px;
+    margin: 70px 0;
     gap: 20px;
-    padding: 20px;
+    padding: 70px;
+    background: rgb(255, 255, 255)
+}
+
+
+.inform {
+    padding: 60px;
     border-top: 10px dashed #9696fd8e;
     border-bottom: 10px dashed #9696fd8e;
 }

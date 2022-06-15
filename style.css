@@ -14,8 +14,8 @@
 }
 
 
-.container {
-    background: rgba(204, 114, 200, 0.705);
+main {
+    background: rgb(233, 169, 230);
 }
 
 
@@ -37,7 +37,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #ffffffe3;
+    background-color: floralwhite
 }
 
 
@@ -63,8 +63,8 @@ header {
 
 .dona_img {
     display: flex;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     margin-top: 70px;
 }
 
@@ -132,24 +132,45 @@ header {
     display: flex;
     justify-content: center;
     text-align: justify;
-    margin: 70px 0;
-    gap: 20px;
-    padding: 70px;
-    background: rgb(255, 255, 255)
+    margin: 0 auto; 
+    padding-top: 100px;
 }
 
 
 .inform {
-    padding: 60px;
-    border-top: 10px dashed #9696fd8e;
-    border-bottom: 10px dashed #9696fd8e;
+    padding: 50px;
+    border-bottom: 5px solid #fdfd96;
 }
 
 
 .servicio {
-    background: antiquewhite;
-    display: flex;
-    padding: 10px;
+    background: #9696fd8e;
     text-align: center;
-    max-width: 70%;
+
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.iconos-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 400px;
+    padding: 50px;
+}
+
+
+.contenido {
+
+    width: 300px;
+    align-items: center;
+}
+
+
+.icono {
+    width: 80px;
 }

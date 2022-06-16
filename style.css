@@ -118,9 +118,15 @@ header {
 
 
 .btn__buy {
-    background: #000000;
+    background: #414040;
     color: white;
 }
+
+
+.btn__buy:hover{
+    background: #000000;
+}
+
 
 
 .btn__more {
@@ -209,51 +215,52 @@ header {
 
 
 
-footer{
+.container-contacto {
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    display: flex;
+    
+    flex-direction: column;
     background-image: url(./img/Diamante.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.contacto {
-    text-align: center;
-    color: #000000;
+    
 }
 
 
 .titulo-contacto{
     padding-top: 40px;
-
     align-items: center;
-    color: #ffffff;
-    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+    text-shadow: 0px 0px 10px #fffcfc;
+    font-size: X-large;
 }
 
+
+.form-container{
+    
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .form {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
+    
     
     gap: 10px;
+    margin: 30px;
     padding: 50px;
-    background: #9696fdc4;
-    border-radius: 50px;
+    background: #9696fda9;
     font-weight: 700;
 }
 
 
 
-.form-container{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 
 
@@ -261,15 +268,16 @@ footer{
 input{
     border: none;
     border-bottom: 2px solid #000000;
-    border-radius: 10px;
-    padding: 6px;
     
+    padding: 6px;
+    background: #41404000;
 } 
+
 
 
 input:focus {
     outline: none;
-    border: 2px solid #9696fd
+    border: 2px solid #fdfd96;
 }
 
 
@@ -285,7 +293,7 @@ textarea{
 
 textarea:focus {
     outline: none;
-    border: 2px solid #9696fd
+    border: 2px solid #fdfd96;
 }
 
 
@@ -308,9 +316,12 @@ button{
 
 
 .mapa{
-    margin: 50px;
+    border: 12px dotted #fdfd96;
+    margin: 30px;
     display: flex;
-    justify-content: left;
+    flex-direction: column-reverse;
+    justify-content: column;
+    width: 500px;
     height: 500px;
     padding: 50px;
 }
@@ -319,19 +330,24 @@ button{
 
 .ubicacion{
     color: #ffffff;
-    position: relative;
+    align-items: center;
     display: flex;
     flex-direction: column;
     text-align: justify;
     font-size: 20px ;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 
-ul{
+.ubicacion ul{
+    color: #000000;
+    background: #fdfd96;
+    padding: 3px;
+    width: 300px;
+    border-radius: 50px;
     list-style: none;
-    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+    
 }
 
 
@@ -340,8 +356,8 @@ ul{
     height:100px ;
     display: flex;
     justify-content: space-around;
-    background: #ffffff;
-    border-top: 5px solid #9696fd;
+    background: rgb(255, 255, 255);
+    border-top: 2px solid rgb(233, 169, 230);
 }
 
 

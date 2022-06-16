@@ -70,7 +70,7 @@ header {
 
 
 .joya {
-    border: 10px double #000000;
+    border: 10px double #ffffff;
     border-radius: 80px 80px 80px 80px;
 }
 
@@ -129,24 +129,22 @@ header {
 
 
 .data {
-    display: flex;
-    justify-content: center;
     text-align: justify;
-    margin: 0 auto; 
-    padding-top: 100px;
+    margin: 0px 200px;
+    margin-right: 700px;
 }
 
 
 .inform {
     padding: 50px;
-    border-bottom: 2px solid #fdfd96;
+    border-top: 2px solid #fdfd96;
+
 }
 
 
 .servicio {
     background: #9696fd8e;
     text-align: center;
-
     padding: 60px;
     align-items: center;
     justify-content: center;
@@ -165,7 +163,6 @@ header {
 
 
 .contenido {
-
     width: 300px;
     align-items: center;
 }
@@ -174,3 +171,168 @@ header {
 .icono {
     width: 80px;
 }
+
+
+.joyerias {
+    align-items: center;
+    padding: 50px 90px;
+}
+
+
+.joyerias-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 400px;
+    padding: 50px;
+}
+
+
+
+.jewelry {
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.jewelry:hover {
+    box-shadow: 0px 0px 41px 28px #84b6f4;
+    margin: 2px;
+}
+
+
+.articulos {
+    border-radius: 50px;
+}
+
+
+
+
+footer{
+    background-image: url(./img/Diamante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+
+
+
+
+
+.form {
+    text-decoration: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    padding: 50px;
+}
+
+
+
+
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 6px;
+} 
+
+
+input:focus {
+    outline: none;
+    border: 2px solid #9696fd
+}
+
+
+
+
+textarea{
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+textarea:focus {
+    outline: none;
+    border: 2px solid #9696fd
+}
+
+
+
+
+button{
+    width:200px;
+    text-align: center;
+    background-color: #fdfd96;
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content: left;
+    height: 700px;
+    padding: 50px;
+}
+
+
+
+.ubicacion{
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 20px ;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    background: #fdfd96bd;
+    border-top: 5px solid #9696fd;
+}
+
+
+
+.logo-footer{
+
+    width: 10%;
+    padding: 30px;
+}
+
+
+
+background: #fdfd9659;

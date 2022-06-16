@@ -222,13 +222,15 @@ footer{
 .contacto {
     text-align: center;
     color: #000000;
-
 }
 
 
 .titulo-contacto{
-    padding: 40px;
+    padding-top: 40px;
+
     align-items: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,1);
 }
 
 
@@ -238,7 +240,7 @@ footer{
     flex-direction: column;
     width: 500px;
     height: 600px;
-    margin: 60px;
+    
     gap: 10px;
     padding: 50px;
     background: #9696fdc4;
@@ -306,9 +308,10 @@ button{
 
 
 .mapa{
+    margin: 50px;
     display: flex;
     justify-content: left;
-    height: 700px;
+    height: 500px;
     padding: 50px;
 }
 
@@ -328,23 +331,23 @@ button{
 
 ul{
     list-style: none;
-    text-shadow: 0px 0px 10px #84b6f4;
+    text-shadow: 0px 0px 15px rgba(0,0,0,1);
 }
 
 
 
 .logo-container {
+    height:100px ;
     display: flex;
     justify-content: space-around;
-    background: #fdfd96bd;
+    background: #ffffff;
     border-top: 5px solid #9696fd;
 }
 
 
 
 .logo-footer{
-
-    width: 10%;
-    padding: 30px;
+    width: 100px;
+    padding: 10px;
 }
 
